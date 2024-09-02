@@ -59,7 +59,7 @@
 
   
   "outbounds": [
-    { "tag": "Proxy", "type": "selector", outbounds": ["{all}"], "filter": [{ "action": "exclude", "keywords": ["网站|地址|剩余|过期|时间|有效"] }]},
+    { "tag": "Proxy", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "exclude", "keywords": ["网站|地址|剩余|过期|时间|有效"] }]},
     { "tag": "Slack", "type": "selector", "outbounds": ["Direct", "Proxy", "Singapore", "United States", "Taiwan", "Hong Kong", "Japan", "Korea", "Others"] },
     { "tag": "Telegram", "type": "selector", "outbounds": ["Direct", "Proxy", "Singapore", "United States", "Taiwan", "Hong Kong", "Japan", "Korea", "Others"] },
     { "tag": "TikTok", "type": "selector", "outbounds": ["Direct", "Proxy", "Singapore", "United States", "Taiwan", "Hong Kong", "Japan", "Korea", "Others"] },
@@ -76,7 +76,7 @@
     { "tag": "LinkedIn", "type": "selector", "outbounds": ["Direct", "Proxy", "Singapore", "United States", "Taiwan", "Hong Kong", "Japan", "Korea", "Others"] },
     { "tag": "PayPal", "type": "selector", "outbounds": ["Direct", "Proxy", "Singapore", "United States", "Taiwan", "Hong Kong", "Japan", "Korea", "Others"] },
     { "tag": "Nintendo", "type": "selector", "outbounds": ["Direct", "Proxy", "Singapore", "United States", "Taiwan", "Hong Kong", "Japan", "Korea", "Others"] },
-    { "tag": "Singapore, "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["🇸🇬|SG|sg|新加坡|新|Singapore"] }] },
+    { "tag": "Singapore", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["🇸🇬|SG|sg|新加坡|新|Singapore"] }] },
     { "tag": "United States", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["🇺🇸|US|us|美国|美|United States"] }] },
     { "tag": "Taiwan", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["🇨🇳|TW|tw|台湾|台|Taiwan"] }] },
     { "tag": "Hong Kong", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["🇭🇰|HK|hk|香港|港|HongKong"] }] },
@@ -121,7 +121,7 @@
       { "tag": "geosite-openai", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Toperlock/sing-box-geosite/main/rule/OpenAI.srs", "download_detour": "Direct" },
       { "tag": "geosite-dropbox", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Toperlock/sing-box-geosite/main/rule/dropbox.srs", "download_detour": "Direct" },
       { "tag": "geosite-nintendo", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Toperlock/sing-box-geosite/main/rule/nintendo.srs", "download_detour": "Direct" },
-      { "tag": "geosite-linkedin", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Toperlock/sing-box-geosite/main/rule/linkdein.srs", "download_detour": "Direct" },
+      { "tag": "geosite-linkedin", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Toperlock/sing-box-geosite/main/rule/linkedin.srs", "download_detour": "Direct" },
       { "tag": "geosite-paypal", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Toperlock/sing-box-geosite/main/rule/paypal.srs", "download_detour": "Direct" },
       { "tag": "geosite-slack", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Toperlock/sing-box-geosite/main/rule/slack.srs", "download_detour": "Direct" },
       { "tag": "geosite-spotify", "type": "remote", "format": "binary", "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Toperlock/sing-box-geosite/main/rule/spotify.srs", "download_detour": "Direct" },
