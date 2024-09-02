@@ -83,18 +83,18 @@
     { "tag": "Japan", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["🇯🇵|JP|jp|日本|日|Japan"] }] },
     { "tag": "Korea", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["🇰🇷|KR|kr|韩国|韩|Korea"] }] },
     { "tag": "Others", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "exclude", "keywords": ["🇸🇬|SG|sg|新加坡|新|Singapore|🇺🇸|US|us|美国|美|United States|🇨🇳|TW|tw|台湾|台|Taiwan|🇭🇰|HK|hk|香港|港|HongKong|🇯🇵|JP|jp|日本|日|Japan|🇰🇷|KR|kr|韩国|韩|Korea"] }] },
-    { "tag": "GLOBAL", "type": "selector", "outbounds": ["Proxy", "Singapore", "United States", "Taiwan", "Hong Kong", "Japan", "Korea", "Others"] },
+    { "tag": "Global", "type": "selector", "outbounds": ["Proxy", "Singapore", "United States", "Taiwan", "Hong Kong", "Japan", "Korea", "Others"] },
     { "tag": "Direct", "type": "direct" },
     { "tag": "dns-out", "type": "dns" }
   ],
   
   "route": {
         "auto_detect_interface": true,
-        "final": "GLOBAL",
+        "final": "Global",
     "rules": [
       { "type": "logical", "mode": "or", "rules": [{ "port": 53 }, { "protocol": "dns" }], "outbound": "dns-out" },
       { "clash_mode": "direct", "outbound": "Direct" },
-      { "clash_mode": "global", "outbound": "GLOBAL" },
+      { "clash_mode": "global", "outbound": "Proxy" },
       { "domain": ["clash.razord.top", "yacd.metacubex.one", "yacd.haishan.me", "d.metacubex.one"], "outbound": "Direct" },
       { "ip_is_private": true, "outbound": "Direct" },
       { "rule_set": "geosite-paypal", "outbound": "Slack" },
@@ -113,7 +113,7 @@
       { "rule_set": "geosite-linkedin", "outbound": "LinkedIn" }, 
       { "rule_set": "geosite-paypal", "outbound": "PayPal" },      
       { "rule_set": "geosite-nintendo", "outbound": "Nintendo" }, 
-      { "rule_set": "geosite-geolocation-!cn", "outbound": "Proxy" },
+      { "rule_set": "geosite-geolocation-!cn", "outbound": "Global" },
       { "rule_set": ["geoip-cn", "geosite-cn"], "outbound": "Direct" }
     ],
     
