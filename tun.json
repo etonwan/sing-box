@@ -721,6 +721,14 @@
             {
                 "domain_suffix": 
                 [
+                    "zenitsu.io",
+                    "zenitsu.network"
+                ],
+                "outbound": "United States"
+            },
+            {
+                "domain_suffix": 
+                [
                     "misoenergy.org",
                     "ercot.com",
                     "spp.org",
