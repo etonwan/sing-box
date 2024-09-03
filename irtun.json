@@ -32,7 +32,7 @@
             },
             {
                 "tag": "localDns",
-                "address": "https://185.51.200.2/dns-query",
+                "address": "http://1.1.1.1/dns-query",
                 "detour": "direct"
             },
             {
