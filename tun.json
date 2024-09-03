@@ -713,7 +713,7 @@
                     "d.metacubex.one"
                 ],
                 "outbound": "direct"
-            }
+            },
             {
                 "ip_is_private": true,
                 "outbound": "direct"
