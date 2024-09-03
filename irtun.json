@@ -32,7 +32,7 @@
             },
             {
                 "tag": "localDns",
-                "address": "http://1.1.1.1/dns-query",
+                "address": "tcp://8.8.8.8",
                 "detour": "direct"
             },
             {
