@@ -384,7 +384,7 @@
                 "Proxy",
                 "direct"
             ],
-            "default": "Singapore"
+            "default": "direct"
         },
         {
             "tag": "Spotify",
@@ -546,7 +546,7 @@
                 "Proxy",
                 "direct"
             ],
-            "default": "Singapore"
+            "default": "United States"
         },
         {
             "tag": "Google",
