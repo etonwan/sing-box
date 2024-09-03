@@ -333,6 +333,24 @@
             "default": "Taiwan"
         },
         {
+            "tag": "Emby",
+            "type": "selector",
+            "outbounds":
+            [
+                "Singapore",
+                "United States",
+                "Taiwan",
+                "Hong Kong",
+                "Japan",
+                "Korea",
+                "Others",
+                "Auto Select",
+                "Proxy",
+                "direct"
+            ],
+            "default": "Hong Kong"
+        },
+        {
             "tag": "Netflix",
             "type": "selector",
             "outbounds":
@@ -695,10 +713,44 @@
                     "d.metacubex.one"
                 ],
                 "outbound": "direct"
-            },
+            }
             {
                 "ip_is_private": true,
                 "outbound": "direct"
+            },
+            {
+                "domain_suffix": 
+                [
+                    "misoenergy.org",
+                    "ercot.com",
+                    "spp.org",
+                    "pjm.com",
+                    "caiso.com"
+                ],
+                "outbound": "United States"
+            },
+            {
+                "domain_suffix": 
+                [
+                    "misakaf.org",
+                    "123456.al",
+                    "xmsl.org"
+                ],
+                "outbound": "Emby"
+            },
+            {
+                "domain_suffix": 
+                [
+                    "nodeseek.com"
+                ],
+                "outbound": "Others"
+            },
+            {
+                "domain_suffix": 
+                [
+                    "nodeseek.com"
+                ],
+                "outbound": "Others"
             },
             {
                 "rule_set": "geosite-linkedin",
