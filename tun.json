@@ -868,28 +868,28 @@
                 "tag": "geosite-linkedin",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Toperlock/sing-box-geosite/main/rule/linkedin.srs",
+                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/linkedin.srs",
                 "download_detour": "direct"
             },
             {
                 "tag": "geosite-slack",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Toperlock/sing-box-geosite/main/rule/slack.srs",
+                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/slack.srs",
                 "download_detour": "direct"
             },
             {
                 "tag": "geosite-paypal",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Toperlock/sing-box-geosite/main/rule/paypal.srs",
+                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/paypal.srs",
                 "download_detour": "direct"
             },
             {
                 "tag": "geosite-dropbox",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Toperlock/sing-box-geosite/main/rule/dropbox.srs",
+                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/dropbox.srs",
                 "download_detour": "direct"
             },
             {
@@ -959,7 +959,7 @@
                 "tag": "geosite-openai",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Toperlock/sing-box-geosite/main/rule/OpenAI.srs",
+                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/OpenAI.srs",
                 "download_detour": "direct"
             },
             {
