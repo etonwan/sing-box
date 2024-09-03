@@ -28,7 +28,7 @@
             {
                 "tag": "proxyDns",
                 "address": "tls://8.8.8.8",
-                "detour": "Proxy"
+                "detour": "Global"
             },
             {
                 "tag": "localDns",
@@ -675,7 +675,7 @@
     "route":
     {
         "auto_detect_interface": true,
-        "final": "Proxy",
+        "final": "Global",
         "rules":
         [
             {
