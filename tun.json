@@ -753,6 +753,13 @@
                 "outbound": "United States"
             },
             {
+                "domain_suffix": 
+                [
+                    "zenitsu.network"
+                ],
+                "outbound": "United States"
+            },
+            {
                 "rule_set": "geosite-linkedin",
                 "outbound": "LinkedIn"
             },
