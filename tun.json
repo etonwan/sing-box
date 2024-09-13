@@ -126,7 +126,7 @@
                     "action": "include",
                     "keywords":
                     [
-                        "🇸🇬|SG|sg|新加坡|狮|Singapore"
+                        "🇸🇬"
                     ]
                 }
             ]
@@ -144,7 +144,7 @@
                     "action": "include",
                     "keywords":
                     [
-                        "🇺🇸|US|us|美国|美|United States"
+                        "🇺🇸"
                     ]
                 }
             ]
@@ -162,7 +162,7 @@
                     "action": "include",
                     "keywords":
                     [
-                        "🇹🇼|TW|tw|台湾|臺灣|台|Taiwan"
+                        "🇹🇼|🇨🇳"
                     ]
                 }
             ]
@@ -180,7 +180,7 @@
                     "action": "include",
                     "keywords":
                     [
-                        "🇭🇰|HK|hk|香港|港|Hong Kong"
+                        "🇭🇰"
                     ]
                 }
             ]
@@ -198,13 +198,13 @@
                     "action": "include",
                     "keywords":
                     [
-                        "🇯🇵|JP|jp|日本|日|Japan"
+                        "🇯🇵"
                     ]
                 }
             ]
         },
         {
-            "tag": "Korea",
+            "tag": "Europe",
             "type": "selector",
             "outbounds":
             [
@@ -216,7 +216,7 @@
                     "action": "include",
                     "keywords":
                     [
-                        "🇰🇷|KR|kr|韩国|韩|Korea"
+                        "🇦🇱|🇦🇩|🇦🇹|🇧🇾|🇧🇪|🇮🇪|🇧🇦|🇭🇷|🇨🇾|🇹🇷|🇨🇿|🇩🇰|🇪🇪|🇫🇮|🇫🇷|🇩🇪|🇬🇷|🇭🇺|🇮🇸|🇮🇹|🇱🇻|🇱🇹|🇱🇺|🇲🇹|🇲🇩|🇲🇰|🇳🇱|🇳🇴|🇵🇱|🇵🇹|🇷🇸|🇸🇰|🇸🇮|🇪🇸|🇸🇪|🇨🇭|🇺🇦|🇬🇧|🇻🇦"
                     ]
                 }
             ]
@@ -234,7 +234,7 @@
                     "action": "exclude",
                     "keywords":
                     [
-                        "🇭🇰|HK|hk|香港|香|🇹🇼|TW|tw|台湾|台|🇸🇬|SG|sg|新加坡|狮|🇯🇵|JP|jp|日本|日|🇺🇸|US|us|美国|美|🇰🇷|KR|kr|韩国|韩|Korea"
+                        "🇭🇰|🇨🇳|🇹🇼|🇸🇬|🇯🇵|🇺🇸|🇦🇱|🇦🇩|🇦🇹|🇧🇾|🇧🇪|🇮🇪|🇧🇦|🇭🇷|🇨🇾|🇹🇷|🇨🇿|🇩🇰|🇪🇪|🇫🇮|🇫🇷|🇩🇪|🇬🇷|🇭🇺|🇮🇸|🇮🇹|🇱🇻|🇱🇹|🇱🇺|🇲🇹|🇲🇩|🇲🇰|🇳🇱|🇳🇴|🇵🇱|🇵🇹|🇷🇸|🇸🇰|🇸🇮|🇪🇸|🇸🇪|🇨🇭|🇺🇦|🇬🇧|🇻🇦"
                     ]
                 }
             ]
@@ -259,7 +259,7 @@
                 "Taiwan",
                 "Hong Kong",
                 "Japan",
-                "Korea",
+                "Europe",
                 "Others",
                 "Auto Select",
                 "Proxy",
@@ -277,7 +277,7 @@
                 "Taiwan",
                 "Hong Kong",
                 "Japan",
-                "Korea",
+                "Europe",
                 "Others",
                 "Auto Select",
                 "Proxy",
@@ -295,7 +295,7 @@
                 "Taiwan",
                 "Hong Kong",
                 "Japan",
-                "Korea",
+                "Europe",
                 "Others",
                 "Auto Select",
                 "Proxy",
@@ -324,7 +324,7 @@
                 "Taiwan",
                 "Hong Kong",
                 "Japan",
-                "Korea",
+                "Europe",
                 "Others",
                 "Auto Select",
                 "Proxy",
@@ -342,7 +342,7 @@
                 "Taiwan",
                 "Hong Kong",
                 "Japan",
-                "Korea",
+                "Europe",
                 "Others",
                 "Auto Select",
                 "Proxy",
@@ -360,7 +360,7 @@
                 "Taiwan",
                 "Hong Kong",
                 "Japan",
-                "Korea",
+                "Europe",
                 "Others",
                 "Auto Select",
                 "Proxy",
@@ -378,7 +378,7 @@
                 "Taiwan",
                 "Hong Kong",
                 "Japan",
-                "Korea",
+                "Europe",
                 "Others",
                 "Auto Select",
                 "Proxy",
@@ -396,7 +396,7 @@
                 "Taiwan",
                 "Hong Kong",
                 "Japan",
-                "Korea",
+                "Europe",
                 "Others",
                 "Auto Select",
                 "Proxy",
@@ -414,7 +414,7 @@
                 "Taiwan",
                 "Hong Kong",
                 "Japan",
-                "Korea",
+                "Europe",
                 "Others",
                 "Auto Select",
                 "Proxy",
@@ -432,7 +432,7 @@
                 "Taiwan",
                 "Hong Kong",
                 "Japan",
-                "Korea",
+                "Europe",
                 "Others",
                 "Auto Select",
                 "Proxy",
@@ -450,7 +450,7 @@
                 "Taiwan",
                 "Hong Kong",
                 "Japan",
-                "Korea",
+                "Europe",
                 "Others",
                 "Auto Select",
                 "Proxy",
@@ -468,7 +468,7 @@
                 "Taiwan",
                 "Hong Kong",
                 "Japan",
-                "Korea",
+                "Europe",
                 "Others",
                 "Auto Select",
                 "Proxy",
@@ -486,7 +486,7 @@
                 "Taiwan",
                 "Hong Kong",
                 "Japan",
-                "Korea",
+                "Europe",
                 "Others",
                 "Auto Select",
                 "Proxy",
@@ -504,7 +504,7 @@
                 "Taiwan",
                 "Hong Kong",
                 "Japan",
-                "Korea",
+                "Europe",
                 "Others",
                 "Auto Select",
                 "Proxy",
@@ -522,7 +522,7 @@
                 "Taiwan",
                 "Hong Kong",
                 "Japan",
-                "Korea",
+                "Europe",
                 "Others",
                 "Auto Select",
                 "Proxy",
@@ -540,7 +540,7 @@
                 "Taiwan",
                 "Hong Kong",
                 "Japan",
-                "Korea",
+                "Europe",
                 "Others",
                 "Auto Select",
                 "Proxy",
@@ -558,7 +558,7 @@
                 "Taiwan",
                 "Hong Kong",
                 "Japan",
-                "Korea",
+                "Europe",
                 "Others",
                 "Auto Select",
                 "Proxy",
@@ -576,7 +576,7 @@
                 "Taiwan",
                 "Hong Kong",
                 "Japan",
-                "Korea",
+                "Europe",
                 "Others",
                 "Auto Select",
                 "Proxy",
@@ -594,7 +594,7 @@
                 "Taiwan",
                 "Hong Kong",
                 "Japan",
-                "Korea",
+                "Europe",
                 "Others",
                 "Auto Select",
                 "Proxy",
@@ -612,7 +612,7 @@
                 "Taiwan",
                 "Hong Kong",
                 "Japan",
-                "Korea",
+                "Europe",
                 "Others",
                 "Auto Select",
                 "Proxy",
@@ -630,7 +630,7 @@
                 "Taiwan",
                 "Hong Kong",
                 "Japan",
-                "Korea",
+                "Europe",
                 "Others",
                 "Auto Select",
                 "Proxy",
