@@ -743,14 +743,14 @@
                 [
                     "nodeseek.com"
                 ],
-                "outbound": "Others"
+                "outbound": "Europe"
             },
             {
                 "domain_suffix": 
                 [
-                    "nodeseek.com"
+                    "zenitsu.io"
                 ],
-                "outbound": "Others"
+                "outbound": "United States"
             },
             {
                 "rule_set": "geosite-linkedin",
